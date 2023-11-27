@@ -1,0 +1,20 @@
+.embla {
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.embla__container {
+  display: flex;
+
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+}
+
+.embla__slide img {
+  width: 100vw;
+  height: 450px;
+  object-fit: cover;
+  z-index: -10;
+}

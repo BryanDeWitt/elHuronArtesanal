@@ -1,0 +1,327 @@
+{
+  "principales": [
+    {
+      "name": "Cordero a la Estaca",
+      "description": "Cordero a la estaca con papas y ensalada.",
+      "price": 350,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701058742/huronArtesanal/r42x95kw6ndweekoegmf.jpg"
+    },
+    {
+      "name": "Merluza Negra a la Parrilla",
+      "description": "Merluza negra a la parrilla con vegetales asados.",
+      "price": 280,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701058864/huronArtesanal/by59n9ahmgwreva33so0.jpg"
+    },
+    {
+      "name": "Chuletón de Ternera",
+      "description": "Chuletón de ternera a la parrilla con papas y chimichurri.",
+      "price": 400,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701058953/huronArtesanal/kpem13p65qcl3ug3blyo.jpg"
+    },
+    {
+      "name": "Risotto de Mariscos",
+      "description": "Risotto cremoso con mariscos frescos.",
+      "price": 320,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059007/huronArtesanal/zbgyelauxkzzttotxpwi.jpg"
+    },
+    {
+      "name": "Lenguado Meunière",
+      "description": "Lenguado con salsa Meunière y puré de papas.",
+      "price": 310,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059054/huronArtesanal/f2os7w3deezds1rfl9fh.jpg"
+    },
+    {
+      "name": "Entrecot a la Parrilla",
+      "description": "Entrecot a la parrilla con mantequilla de hierbas y espárragos.",
+      "price": 380,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059096/huronArtesanal/jkngsz0bnq0ddisgmiwd.jpg"
+    },
+    {
+      "name": "Pulpo a la Parrilla",
+      "description": "Pulpo a la parrilla con papas y alioli.",
+      "price": 290,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059130/huronArtesanal/f2w18c1dzeovggjlxwos.jpg"
+    },
+    {
+      "name": "Rack de Cordero en Costra de Hierbas",
+      "description": "Rack de cordero en costra de hierbas con risotto y espárragos.",
+      "price": 420,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059174/huronArtesanal/hicvfrx8mcfzanwfouag.jpg"
+    },
+    {
+      "name": "Solomillo de Cerdo con Salsa de Ciruela",
+      "description": "Solomillo de cerdo con salsa de ciruela y batatas.",
+      "price": 350,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059220/huronArtesanal/k1ksvwa4kcdytzf6xn9z.jpg"
+    },
+    {
+      "name": "Parrillada de Mariscos",
+      "description": "Parrillada de mariscos con vegetales a la parrilla.",
+      "price": 360,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059262/huronArtesanal/kxwzczjs9wv50oczjtqk.jpg"
+    }
+  ],
+  "hamburguesas": [
+    {
+      "name": "Basica",
+      "description": "Hamburguesa simple 100grs, carne a la parrilla",
+      "price": 120,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059301/huronArtesanal/pfskijauual6dbm1zmya.jpg"
+    },
+    {
+      "name": "Ragnarock",
+      "description": "Esta hamburguesa causara el fin de los tiempos",
+      "price": 200,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059350/huronArtesanal/drkesqmz6r8evjhtgydx.jpg"
+    },
+    {
+      "name": "Vegana",
+      "description": "Pan de carne, acompañado por 250grs de carne, panceta, huevo, jamon... Espera, vegano significa sin carne??",
+      "price": 480,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059413/huronArtesanal/a7anwu032qr4ifks4m4d.jpg"
+    },
+    {
+      "name": "Extincion Vacuna",
+      "description": "Cada venta de esta Hamburguesa disminuye la poblacion de las vacas en un 1.5%",
+      "price": 550,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059508/huronArtesanal/ab22ysz3hxig7ftmpp5b.jpg"
+    },
+    {
+      "name": "Iberica",
+      "description": "270 gramos de carne vacuna de primer nivel exportada desde Japon",
+      "price": 250,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059581/huronArtesanal/atpygfbwfoj277gdncic.jpg"
+    },
+    {
+      "name": "Infarto Asegurado",
+      "description": "Esta pequeña e inofensiva hamburguesa es perfecta para la etapa de volumen",
+      "price": 320,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059648/huronArtesanal/cidinifeqj31uyfherth.jpg"
+    },
+    {
+      "name": "Grotesca",
+      "description": "La hamburguesa de tus pesadillas, o de tus sueños",
+      "price": 400,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059714/huronArtesanal/wxfboujl95tfpw8rcl0e.jpg"
+    },
+    {
+      "name": "Melancolica",
+      "description": "La tipica hamburguesa que se servia en los años 20 en El Huron",
+      "price": 340,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059839/huronArtesanal/vcmuwobnl1idb4w6evcy.jpg"
+    },
+    {
+      "name": "Sashimi",
+      "description": "Hambuesa de pescado que te hara viajar a la tierra del sol naciente",
+      "price": 420,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701059900/huronArtesanal/sl9grgrppthkezktdtni.jpg"
+    },
+    {
+      "name": "Turbo Master 3000",
+      "description": "Turbo Master, la hamburguesa mas poderosa que ha existido, con carne 4 x 4 y 2 turbo quesos!! Esta si es una hamburguesa!",
+      "price": 620,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060004/huronArtesanal/pvdfiimxyva8eo6d2bxv.jpg"
+    }
+  ],
+  "desayunos": [
+    {
+      "name": "Croissant de Chocolate",
+      "description": "Croissant relleno de chocolate, perfecto para empezar la mañana con dulzura.",
+      "price": 110,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060039/huronArtesanal/odawobqigxdg2tvbkmwn.jpg"
+    },
+    {
+      "name": "Açaí Bowl",
+      "description": "Bol de açaí con granola, frutas frescas y miel, una opción saludable y deliciosa.",
+      "price": 130,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060073/huronArtesanal/xhdnpfduaatgjcgyrfrb.jpg"
+    },
+    {
+      "name": "Omelette de Champiñones",
+      "description": "Omelette ligero y delicioso con champiñones frescos y queso.",
+      "price": 120,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060144/huronArtesanal/clikt6zg549othkhjy49.jpg"
+    },
+    {
+      "name": "Yogur Parfait",
+      "description": "Yogur con capas alternas de granola, frutas y miel, una opción refrescante.",
+      "price": 100,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060198/huronArtesanal/syxqpmmcqeskxvlnqsai.jpg"
+    },
+    {
+      "name": "Tostadas Francesas",
+      "description": "Tostadas bañadas en huevo y leche, doradas y servidas con jarabe de arce.",
+      "price": 95,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060230/huronArtesanal/sv8kj77dle0kvuhavcko.jpg"
+    },
+    {
+      "name": "Sandwich de queso con carne",
+      "description": "Sandwich simple para empezar la mañana",
+      "price": 90,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060272/huronArtesanal/bxi98i9ilhioebhkvdn5.jpg"
+    },
+    {
+      "name": "Bizcochos de la casa",
+      "description": "Bizcochos hechos en la mañana y el mejor cafe directo desde Colombia",
+      "price": 120,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060305/huronArtesanal/z8mbq0h3ujnmxqohgbtf.jpg"
+    },
+    {
+      "name": "Batido Proteico",
+      "description": "Batido hecho de leche, huevos, banana, 100grs de proteina sabor vainilla y 7grs de creatina, ya no tenes excusa",
+      "price": 100,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060344/huronArtesanal/giwvzd3d5enurbgi6oxs.jpg"
+    },
+    {
+      "name": "Pan Tostado",
+      "description": "Pan tostado con mermelada de los cultivos personales de El Huron acompañado con jugo de naranja",
+      "price": 90,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060377/huronArtesanal/dhgugqsxipvp9sylqxhw.jpg"
+    },
+    {
+      "name": "Americano",
+      "description": "Hotdogs, bacon, scrambled eggs, some bread and orange Juice, Uh lala Mister America",
+      "price": 15,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060425/huronArtesanal/dm8s2hrvk6ibvhnak9yi.jpg"
+    }
+  ],
+  "bebidas": [
+    {
+      "name": "Soda Dietetica",
+      "price": 52,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060472/huronArtesanal/vqrtakam4xfroyvj35bt.jpg"
+    },
+    {
+      "name": "Soda",
+      "price": 45,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060520/huronArtesanal/o4esq9drlrdfnazllaij.jpg"
+    },
+    {
+      "name": "Agua",
+      "price": 20,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060551/huronArtesanal/d5bihigt3cnitgwubg59.jpg"
+    },
+    {
+      "name": "Agua Dietetica",
+      "price": 25,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060551/huronArtesanal/d5bihigt3cnitgwubg59.jpg"
+    },
+    {
+      "name": "Chateau Corton Grancey",
+      "price": 4500,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060599/huronArtesanal/vktkqbif66shjrqepiwd.jpg"
+    },
+    {
+      "name": "Blue Label de Jhonnie Walker",
+      "price": 1200,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060665/huronArtesanal/csul89bpi3sw4va2fz0s.jpg"
+    },
+    {
+      "name": "Cerveza Artesanal IPA",
+      "price": 90,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060698/huronArtesanal/eflpuo19kzjhyncbn7yo.jpg"
+    },
+    {
+      "name": "Cóctel Margarita",
+      "price": 120,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060732/huronArtesanal/lup3nnoznbmb4yoe4cea.jpg"
+    },
+    {
+      "name": "Té Verde Helado",
+      "price": 50,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060766/huronArtesanal/mebld6iekhtzxndirya8.jpg"
+    },
+    {
+      "name": "Café Espresso",
+      "price": 55,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060800/huronArtesanal/d21gylkjtdfpznjn8ccp.jpg"
+    },
+    {
+      "name": "Mojito Clásico",
+      "price": 100,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060914/huronArtesanal/tnywdlgadus1wua8wrgb.jpg"
+    },
+    {
+      "name": "Agua Mineral con Gas",
+      "price": 30,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060960/huronArtesanal/qcvkrnypoxdbwntjpg4m.jpg"
+    },
+    {
+      "name": "Cóctel Mojito de Fresa",
+      "price": 110,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701060992/huronArtesanal/yhwo3nl1lljeradaqlkk.jpg"
+    },
+    {
+      "name": "Té de Menta",
+      "price": 40,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061019/huronArtesanal/bux3qgxge1ywfnvaj5g3.jpg"
+    },
+    {
+      "name": "Agua Tónica",
+      "price": 35,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061067/huronArtesanal/azwd1apryvxfkecqdgru.jpg"
+    }
+  ],
+  "postres": [
+    {
+      "name": "Mousse de Mango",
+      "description": "Mousse suave y cremoso de mango, una explosión de sabor tropical.",
+      "price": 140,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061096/huronArtesanal/b8533qdozyqyfz9uytcs.jpg"
+    },
+    {
+      "name": "Gelato de Pistacho",
+      "description": "Gelato italiano de pistacho con trozos de nueces, una delicia para los amantes de los frutos secos.",
+      "price": 90,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061135/huronArtesanal/newzt1ubmjbvyern1wf9.jpg"
+    },
+    {
+      "name": "Crepes de Nutella",
+      "description": "Crepes rellenos de Nutella y plátano, una opción irresistible para los amantes del chocolate.",
+      "price": 120,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061167/huronArtesanal/qb1cdsg7pqvbexkckz50.jpg"
+    },
+    {
+      "name": "Tarta de Manzana",
+      "description": "Tarta clásica de manzana con una base de hojaldre y un toque de canela.",
+      "price": 110,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061202/huronArtesanal/wthwktmrrsnr2eay4pbl.jpg"
+    },
+    {
+      "name": "Profiteroles de Caramelo",
+      "description": "Profiteroles rellenos de crema y bañados en salsa de caramelo, una indulgencia dulce.",
+      "price": 160,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061240/huronArtesanal/rovnsanenhrjrnhzervy.jpg"
+    },
+    {
+      "name": "Tarta de Chocolate",
+      "description": "Deliciosa tarta de chocolate con cobertura de chocolate.",
+      "price": 150,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061278/huronArtesanal/dh0duxbs8fu5ukj1otsc.jpg"
+    },
+    {
+      "name": "Helado de Vainilla",
+      "description": "Helado cremoso de vainilla con toppings de tu elección.",
+      "price": 80,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061312/huronArtesanal/cs6wxwiclzhnrfdkrxps.jpg"
+    },
+    {
+      "name": "Tiramisú",
+      "description": "Clásico postre italiano con capas de café y crema de mascarpone.",
+      "price": 160,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061342/huronArtesanal/o62rshl1u8fbt4awk7jb.jpg"
+    },
+    {
+      "name": "Cheesecake de Fresa",
+      "description": "Cheesecake casero con salsa de fresa y base de galleta.",
+      "price": 130,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061369/huronArtesanal/xxuhaxg30wjxsnse6fcc.jpg"
+    },
+    {
+      "name": "Frutas Frescas",
+      "description": "Selección de frutas frescas de temporada.",
+      "price": 70,
+      "image": "https://res.cloudinary.com/dprq4hntt/image/upload/v1701061555/huronArtesanal/hkv6rhwdtxkjvxrphpul.jpg"
+    }
+  ]
+}

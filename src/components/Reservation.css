@@ -1,0 +1,43 @@
+.reservation-container {
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/27/9f/45/bc/restaurant.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.reservation-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+}
+
+.reservation-container img {
+  height: 150px;
+  width: 150px;
+  z-index: 2;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: white;
+  position: relative;
+  z-index: 3;
+}
+
+@media (max-width: 550px) {
+  .reservation-container {
+    flex-direction: column;
+    gap: 15px;
+    height: 370px;
+  }
+}

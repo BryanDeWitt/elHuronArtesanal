@@ -1,0 +1,218 @@
+.menu-image {
+  position: relative;
+  height: 300px;
+  background: url('https://res.cloudinary.com/dprq4hntt/image/upload/ar_16:9,c_scale,w_1300/huronArtesanal/lcoav7m8fmjscgzlycve.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 45%;
+}
+
+.menu-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 15px;
+}
+
+.menu-category {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 35px;
+  border: none;
+  background-color: transparent;
+  font-size: 1.2rem;
+  padding: 5px;
+  transition: .15s;
+}
+
+.current-category {
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0 0 10px;
+}
+
+.menu-categories {
+  min-height: 500px;
+  margin: 5px;
+  padding: 15px;
+}
+
+.menu-categories button:hover {
+  background-color: #002f49;
+  color: white;
+  cursor: pointer;
+  scale: 1.15;
+  border-radius: 5px;
+}
+
+.menu-categories p {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.menu-dishes {
+  min-height: 90vh;
+  padding: 25px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(370px, .7fr));
+  gap: 25px;
+}
+
+.dish-item {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  border-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-color: #002f493a;
+  padding: 15px;
+  transition: ease-in .2s;
+}
+
+.dish-item:hover {
+  scale: 1.01;
+  cursor: pointer;
+  background-color: #002f4996
+}
+
+.dish-item img {
+  height: 100px;
+  width: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.modal {
+  text-align: center;
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.466);
+  width: 100vw;
+  height: 100vh;
+  z-index: 9000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.modal.show {
+  opacity: 1;
+  pointer-events: auto;
+}
+
+.dish-modal {
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 35px;
+  width: 300px;
+  height: 500px;
+  background-color: white;
+  border-radius: 5px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.dish-modal img {
+  width: 300px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.close-button {
+  position: absolute;
+  right: -2%;
+  top: -7%;
+  margin: 3px;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  background-color: rgba(0, 0, 0, 0.493);
+  border: none;
+  color: rgb(255, 255, 255);
+}
+
+.close-button:hover {
+  background-color: rgba(0, 0, 0, 0.678);
+  cursor: pointer;
+}
+
+.add-to-cart {
+  position: absolute;
+  bottom: 3%;
+  right: 30%;
+  padding: 10px;
+  border: none;
+  background-color: #F77F00;
+  border-radius: 5px;
+  transition: 300ms ease-in-out;
+}
+
+.add-to-cart:hover {
+  scale: 1.05;
+  background-color: #002f49;
+  color: white;
+  cursor: pointer;
+}
+
+.dish-modal.show {
+  opacity: 1;
+}
+
+@media (max-width: 300px) {
+  .dish-modal {
+    width: 250px;
+  }
+
+  .dish-modal img {
+    width: 250px;
+  }
+}
+
+@media (max-width: 625px) {
+  .menu-categories div {
+    position: relative;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    gap: 10px;
+    height: 30px;
+  }
+
+  .menu-categories {
+    min-height: 50px;
+    overflow-x: scroll;
+    width: calc(100vw - 25px);
+    margin: 0 10px;
+  }
+
+  .menu-categories::-webkit-scrollbar {
+    height: 3px;
+    background: transparent;
+  }
+
+  .menu-container {
+    grid-template-columns: 1fr;
+  }
+
+  .menu-dishes {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 850px) {
+  .dish-item {
+    flex-direction: column;
+    height: 250px;
+    text-align: center;
+  }
+}
