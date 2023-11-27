@@ -18,13 +18,10 @@ export function NavBar () {
 
     if (orderShow && orderBox) {
       orderBox.classList.add('show')
-      document.body.style.overflowY = 'hidden'
     } else if (orderBox) {
       orderBox.classList.remove('show')
-      document.body.style.overflowY = 'auto'
     }
     return () => {
-      document.body.style.overflowY = 'auto'
       if (orderBox) {
         orderBox.classList.remove('show')
       }
