@@ -72,7 +72,7 @@ export function Order ({ setOrderShow }) {
         updatedOrder[index].quantity--
       }
       if (updatedOrder[index].quantity === 0) {
-        updatedOrder.splice(index, 1)
+        updatedOrder[index].quantity = 1
       }
       window.localStorage.setItem('order', JSON.stringify(updatedOrder))
 
