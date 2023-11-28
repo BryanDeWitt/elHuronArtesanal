@@ -10,7 +10,7 @@ export function Hero () {
         </div>
         <p>Desde hace mas de 250 años, nos hemos comprometido a entregar la mayor calidad en nuestros locales. Empezando como un pequeño negocio hemos logrado expandirnos por mas de 3 continentes y 43 paises!</p>
       </div>
-      <video src='https://res.cloudinary.com/dprq4hntt/video/upload/v1701062090/huronArtesanal/eksbimuujns5ynyc7dfn.mp4' autoPlay loop muted />
+      <video src='https://res.cloudinary.com/dprq4hntt/video/upload/v1701062090/huronArtesanal/eksbimuujns5ynyc7dfn.mp4' autoPlay loop muted alt='Video promocional del Restaurante' />
     </div>
   )
 }

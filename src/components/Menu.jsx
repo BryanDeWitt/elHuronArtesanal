@@ -43,7 +43,7 @@ export function Menu () {
             <div key={index} className='dish-item' onClick={() => handleDish(dish)}>
               <img
                 src={dish.image}
-                alt=''
+                alt={dish.name}
               />
               <div>
                 <h3>{dish.name}</h3>

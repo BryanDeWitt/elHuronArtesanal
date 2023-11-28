@@ -17,7 +17,7 @@ export function EmblaCarousel () {
         {
           slides.map((slide, index) => (
             <div className='embla__slide' key={index}>
-              <img src={slide} alt='slide' />
+              <img src={slide} alt='Fotos' />
             </div>
           ))
           }

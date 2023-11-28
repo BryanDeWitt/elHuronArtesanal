@@ -20,7 +20,7 @@ export function MainPage () {
       <img
         className='wpp-logo'
         src='https://static.vecteezy.com/system/resources/previews/023/986/631/original/whatsapp-logo-whatsapp-logo-transparent-whatsapp-icon-transparent-free-free-png.png'
-        alt=''
+        alt='Whatsapp Logo'
       />
     </>
   )

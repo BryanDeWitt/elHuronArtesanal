@@ -60,7 +60,7 @@ export function Modal ({ actualDish, modal, onClick }) {
         <h2 style={{ color: 'black' }}>{actualDish.name}</h2>
         <img
           src={actualDish.image}
-          alt=''
+          alt={actualDish.name}
         />
         <p>{actualDish.description}</p>
         <p>Precio: {actualDish.price}</p>

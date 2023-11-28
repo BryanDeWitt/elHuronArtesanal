@@ -23,9 +23,9 @@ export function History () {
         </p>
       </article>
       <div className='article-images'>
-        <img src='https://res.cloudinary.com/dprq4hntt/image/upload/ar_16:9,c_scale,w_600/huronArtesanal/lcoav7m8fmjscgzlycve.jpg' alt='' />
-        <img src='https://res.cloudinary.com/dprq4hntt/image/upload/ar_16:9,c_scale,w_600/huronArtesanal/sn2xnyhbhiclam4toa73.jpg' alt='' />
-        <img src='https://res.cloudinary.com/dprq4hntt/image/upload/v1701062448/huronArtesanal/a5g9jtgmpwihptg4xqpx.jpg' alt='' />
+        <img src='https://res.cloudinary.com/dprq4hntt/image/upload/ar_16:9,c_scale,w_600/huronArtesanal/lcoav7m8fmjscgzlycve.jpg' alt='Foto promocional antigua' />
+        <img src='https://res.cloudinary.com/dprq4hntt/image/upload/ar_16:9,c_scale,w_600/huronArtesanal/sn2xnyhbhiclam4toa73.jpg' alt='Hamburguesas' />
+        <img src='https://res.cloudinary.com/dprq4hntt/image/upload/v1701062448/huronArtesanal/a5g9jtgmpwihptg4xqpx.jpg' alt='Dibujo de un huron chef' />
       </div>
     </div>
   )

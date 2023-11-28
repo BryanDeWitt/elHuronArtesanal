@@ -38,7 +38,7 @@ export function CommentsSection () {
       <div className='prize-section'>
         <div className='prize-info'>
           <h3>Carrito “El Huron” gana 3 estrellas Michellin, convirtiendose en el primer local de comida rapida con este reconocimiento.</h3>
-          <img src='https://http2.mlstatic.com/D_NQ_NP_973921-MLU70444871217_072023-O.webp' alt='' />
+          <img src='https://http2.mlstatic.com/D_NQ_NP_973921-MLU70444871217_072023-O.webp' alt='Carrito del Huron cuando gano las estrellas Michellin' />
         </div>
       </div>
 
@@ -49,7 +49,7 @@ export function CommentsSection () {
         {
           commentsArray.map((comment, index) => (
             <article className='comment-container' key={index}>
-              <img src={comment.avatar} alt='' />
+              <img src={comment.avatar} alt={'Foto de ' + comment.name} />
               <span className='comment-name'>{comment.name}</span>
               <div className='comment-info'>
                 <span><em>"{comment.comment}"</em></span>
