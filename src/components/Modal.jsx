@@ -1,7 +1,7 @@
 import { useContext, useEffect } from 'react'
 import { OrderContext } from '../context/OrderContext.jsx'
 
-export function Modal ({ actualDish, modal, onClick }) {
+export function Modal({ actualDish, modal, onClick }) {
   const { setOrder, order } = useContext(OrderContext)
 
   useEffect(() => {
@@ -65,7 +65,7 @@ export function Modal ({ actualDish, modal, onClick }) {
         <p>{actualDish.description}</p>
         <p>Precio: {actualDish.price}</p>
         {
-          order.some(item => item.name === actualDish.name) ? <h4>Agregado al pedido</h4> : null
+          order.some(item => item.name === actualDish.name) ? <h4>Agregado al carrito</h4> : null
         }
         <button className='add-to-cart' onClick={() => handleOrder(actualDish)}>
           Agregar al carrito
